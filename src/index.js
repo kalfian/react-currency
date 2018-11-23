@@ -11,7 +11,7 @@ const App = () => {
     // const title = "React Coin";
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
             <Header/>
 
