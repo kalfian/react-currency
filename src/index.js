@@ -16,8 +16,8 @@ const App = () => {
             <Header/>
 
             <Switch>
-                <Route path="/" component={List} exact />
-                <Route path="/currency/:id" component={Detail} exact/>
+                <Route path="/react-currency/" component={List} exact />
+                <Route path="/react-currency/currency/:id" component={Detail} exact/>
                 <Route component={NotFound} />
             </Switch>
         </div>
