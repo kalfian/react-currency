@@ -11,7 +11,7 @@ const App = () => {
     // const title = "React Coin";
 
     return (
-        <BrowserRouter basename="https://kalfian.github.io/react-currency/">
+        <BrowserRouter>
         <div>
             <Header/>
 
