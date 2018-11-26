@@ -2,7 +2,7 @@
   "name": "react-coin",
   "version": "1.0.0",
   "private": true,
-  
+  "homepage" : "http://kalfian.github.io/react-currency",
   "devDependencies": {
     "react-scripts": "1.1.0"
   },
