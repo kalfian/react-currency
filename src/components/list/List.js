@@ -60,7 +60,7 @@ class List extends React.Component{
             return(<div className="loading-container"><Loading /></div>)
         }
         if(error){
-            return <div className="error">{this.state.error}</div>
+            return <div className="error">{error}</div>
         }
         return(
             <div>
